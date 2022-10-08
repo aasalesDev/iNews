@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BEDF6D4D-B6B0-420A-A807-22A7C9EC6AAE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iNews/Controllers/NewsTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "news"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - af04b2574385d4a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.news.getter : Swift.Optional&lt;iNews.NewsModel&gt;"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - 9d8ab088221a62d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.news.setter : Swift.Optional&lt;iNews.NewsModel&gt;"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - bf583d24d644dfc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.news.modify : Swift.Optional&lt;iNews.NewsModel&gt;"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - af90e9830ab39927"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.news.modify : Swift.Optional&lt;iNews.NewsModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - b8487ecb2b97030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; iNews.NewsTableViewCell"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "8940723C-4EEC-44FB-957E-F910CDAADDCF - ccb74ed835ffe1d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iNews.NewsTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;iNews.NewsTableViewCell&gt;"
+                  moduleName = "iNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andersonsales/Documents/iOS%20Development/Dio%20Projects/App%20DIO/iNews/iNews/Controllers/NewsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
