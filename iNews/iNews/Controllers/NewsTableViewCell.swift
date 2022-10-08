@@ -43,6 +43,6 @@ class NewsTableViewCell: UITableViewCell {
     
     @IBAction func openLink(){
         guard let news = news, let url = URL(string: news.url ?? "") else { return }
-        UIApplication.shared.open(url)
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 }

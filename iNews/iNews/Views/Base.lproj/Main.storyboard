@@ -52,11 +52,28 @@
                     <navigationItem key="navigationItem" title="iNews" id="5OK-rl-p0c"/>
                     <connections>
                         <outlet property="newsListTableView" destination="2mV-ik-HTf" id="wOX-y6-EsZ"/>
+                        <segue destination="ahL-Dg-RHZ" kind="show" identifier="showNewsViewController" id="Oaw-IG-cck"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-35" y="96"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="OWb-A9-f03">
+            <objects>
+                <viewController id="ahL-Dg-RHZ" customClass="NewsViewController" customModule="iNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0x7-iz-t3a">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lrq-5R-Osj"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="News" id="6EO-3O-zEb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="em9-bh-mME" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883" y="96"/>
         </scene>
     </scenes>
     <resources>
