@@ -39,7 +39,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="93A-ss-YyG" userLabel="Stack View Title">
-                                <rect key="frame" x="0.0" y="44.5" width="574" height="88"/>
+                                <rect key="frame" x="0.0" y="51.5" width="574" height="88"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morre aos 87 anos o Major Curió, que combateu a Guerrilha do Araguaia." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-2a-mm9">
                                         <rect key="frame" x="0.0" y="0.0" width="574" height="43"/>
@@ -56,13 +56,12 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vpb-Ax-GHR" userLabel="Stack View Contents">
-                                <rect key="frame" x="0.0" y="142" width="574" height="240"/>
+                                <rect key="frame" x="0.0" y="155" width="574" height="220"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LWT-xT-EzX">
-                                        <rect key="frame" x="0.0" y="0.0" width="574" height="240"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="574" height="220"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="550" id="H1l-FM-V9O"/>
-                                            <constraint firstAttribute="height" constant="220" id="SUO-4M-mP9"/>
+                                            <constraint firstAttribute="height" constant="220" id="5OB-6w-MCy"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>

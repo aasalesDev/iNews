@@ -40,11 +40,3 @@ class NewsListRepository {
         }
     }
 }
-
-extension DateFormatter {
-    static let iso8601Full: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyy-MM-dd'T'HH:mm:ssZ"
-        return formatter
-    }()
-}
