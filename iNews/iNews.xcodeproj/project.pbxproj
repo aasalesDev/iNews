@@ -59,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C838C1F28F25FB00094BEAF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6C53466228B702CE00F8CC6D /* NewsTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		6CF8ABE028AD5896001984EF = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +112,8 @@
 		6CF8AC0128AD5E2C001984EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C838C1F28F25FB00094BEAF /* Components */,
 				6CF8ABF028AD5896001984EF /* NewsListViewController.swift */,
-				6C53466228B702CE00F8CC6D /* NewsTableViewCell.swift */,
 				6C838C1D28F2277D0094BEAF /* NewsViewController.swift */,
 			);
 			path = Controllers;

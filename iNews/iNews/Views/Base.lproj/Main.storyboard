@@ -18,6 +18,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <color key="barTintColor" systemColor="systemMintColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wtc-tz-7Jt"/>
@@ -66,16 +72,56 @@
                     <view key="view" contentMode="scaleToFill" id="0x7-iz-t3a">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wj3-Z4-YqL">
+                                <rect key="frame" x="0.0" y="91" width="390" height="719"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cnv-FS-0rj">
+                                <rect key="frame" x="0.0" y="0.0" width="396" height="844"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="tMQ-dW-uvh">
+                                        <rect key="frame" x="179.66666666666666" y="403.66666666666669" width="37" height="37"/>
+                                        <color key="color" systemColor="systemMintColor"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.41739048338368578" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tMQ-dW-uvh" firstAttribute="centerY" secondItem="cnv-FS-0rj" secondAttribute="centerY" id="8sS-KJ-WKi"/>
+                                    <constraint firstItem="tMQ-dW-uvh" firstAttribute="centerX" secondItem="cnv-FS-0rj" secondAttribute="centerX" id="h8n-vN-a8O"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lrq-5R-Osj"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="cnv-FS-0rj" firstAttribute="height" secondItem="0x7-iz-t3a" secondAttribute="height" id="853-tl-D8t"/>
+                            <constraint firstItem="Wj3-Z4-YqL" firstAttribute="top" secondItem="lrq-5R-Osj" secondAttribute="top" id="J8i-CP-daK"/>
+                            <constraint firstItem="cnv-FS-0rj" firstAttribute="centerY" secondItem="0x7-iz-t3a" secondAttribute="centerY" id="VKJ-2p-RZX"/>
+                            <constraint firstItem="cnv-FS-0rj" firstAttribute="leading" secondItem="Wj3-Z4-YqL" secondAttribute="leading" id="kWP-zr-va5"/>
+                            <constraint firstItem="Wj3-Z4-YqL" firstAttribute="leading" secondItem="lrq-5R-Osj" secondAttribute="leading" id="t1g-32-sBh"/>
+                            <constraint firstItem="lrq-5R-Osj" firstAttribute="trailing" secondItem="Wj3-Z4-YqL" secondAttribute="trailing" id="vw6-90-xBR"/>
+                            <constraint firstItem="cnv-FS-0rj" firstAttribute="width" secondItem="0x7-iz-t3a" secondAttribute="width" multiplier="1.01538" id="wxd-Fl-k8q"/>
+                            <constraint firstItem="lrq-5R-Osj" firstAttribute="bottom" secondItem="Wj3-Z4-YqL" secondAttribute="bottom" id="x5d-AN-BmD"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="News" id="6EO-3O-zEb"/>
+                    <navigationItem key="navigationItem" title="News" largeTitleDisplayMode="never" id="6EO-3O-zEb"/>
+                    <connections>
+                        <outlet property="loadActivityIndicator" destination="tMQ-dW-uvh" id="CHS-7e-GPx"/>
+                        <outlet property="loadingView" destination="cnv-FS-0rj" id="dsU-cG-tcf"/>
+                        <outlet property="newsWebView" destination="Wj3-Z4-YqL" id="lPp-i3-qZ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="em9-bh-mME" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="96"/>
+            <point key="canvasLocation" x="881.53846153846155" y="95.97156398104265"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
